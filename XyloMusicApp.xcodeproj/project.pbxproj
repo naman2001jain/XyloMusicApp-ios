@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		ED54717D264075760080159A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54717C264075760080159A /* AppDelegate.swift */; };
 		ED54717F264075760080159A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54717E264075760080159A /* SceneDelegate.swift */; };
-		ED547181264075760080159A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED547180264075760080159A /* ViewController.swift */; };
-		ED547184264075760080159A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED547182264075760080159A /* Main.storyboard */; };
 		ED5471862640757E0080159A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5471852640757E0080159A /* Assets.xcassets */; };
 		ED5471892640757E0080159A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5471872640757E0080159A /* LaunchScreen.storyboard */; };
+		ED547199264077090080159A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED547198264077090080159A /* TabViewController.swift */; };
+		ED54719C264077250080159A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54719B264077250080159A /* HomeViewController.swift */; };
+		ED54719F2640772F0080159A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54719E2640772F0080159A /* SearchViewController.swift */; };
+		ED5471A2264077390080159A /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471A1264077390080159A /* LibraryViewController.swift */; };
+		ED5471A82640779A0080159A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471A72640779A0080159A /* AuthViewController.swift */; };
+		ED5471AC264077AF0080159A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471AB264077AF0080159A /* ProfileViewController.swift */; };
+		ED5471AF264077BC0080159A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471AE264077BC0080159A /* WelcomeViewController.swift */; };
+		ED5471B2264077CE0080159A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471B1264077CE0080159A /* SettingsViewController.swift */; };
+		ED5471B5264077DE0080159A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471B4264077DE0080159A /* PlayerViewController.swift */; };
+		ED5471B8264077E50080159A /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471B7264077E50080159A /* PlaylistViewController.swift */; };
+		ED5471BB264078020080159A /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471BA264078020080159A /* SearchResultsViewController.swift */; };
+		ED5471BF2640784D0080159A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471BE2640784D0080159A /* AuthManager.swift */; };
+		ED5471C2264078550080159A /* ApiCallers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471C1264078550080159A /* ApiCallers.swift */; };
+		ED5471C5264078630080159A /* HepticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5471C4264078630080159A /* HepticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED547179264075760080159A /* XyloMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XyloMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED54717C264075760080159A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED54717E264075760080159A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED547180264075760080159A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED547183264075760080159A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5471852640757E0080159A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5471882640757E0080159A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED54718A2640757E0080159A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED547198264077090080159A /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		ED54719B264077250080159A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED54719E2640772F0080159A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ED5471A1264077390080159A /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		ED5471A72640779A0080159A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		ED5471AB264077AF0080159A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ED5471AE264077BC0080159A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ED5471B1264077CE0080159A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ED5471B4264077DE0080159A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		ED5471B7264077E50080159A /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		ED5471BA264078020080159A /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		ED5471BE2640784D0080159A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		ED5471C1264078550080159A /* ApiCallers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallers.swift; sourceTree = "<group>"; };
+		ED5471C4264078630080159A /* HepticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,91 @@
 		ED54717B264075760080159A /* XyloMusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				ED54717C264075760080159A /* AppDelegate.swift */,
-				ED54717E264075760080159A /* SceneDelegate.swift */,
-				ED547180264075760080159A /* ViewController.swift */,
-				ED547182264075760080159A /* Main.storyboard */,
-				ED5471852640757E0080159A /* Assets.xcassets */,
-				ED5471872640757E0080159A /* LaunchScreen.storyboard */,
+				ED547197264075CB0080159A /* Resources */,
+				ED547196264075C30080159A /* Managers */,
+				ED547191264075910080159A /* Models */,
+				ED547195264075B70080159A /* ModelViews */,
+				ED5471922640759B0080159A /* Views */,
+				ED547194264075A90080159A /* Controllers */,
 				ED54718A2640757E0080159A /* Info.plist */,
 			);
 			path = XyloMusicApp;
+			sourceTree = "<group>";
+		};
+		ED547191264075910080159A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED5471922640759B0080159A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED5471872640757E0080159A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED547194264075A90080159A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED5471A6264077790080159A /* Others */,
+				ED5471A42640776B0080159A /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED547195264075B70080159A /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		ED547196264075C30080159A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ED5471BE2640784D0080159A /* AuthManager.swift */,
+				ED5471C1264078550080159A /* ApiCallers.swift */,
+				ED5471C4264078630080159A /* HepticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ED547197264075CB0080159A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED54717C264075760080159A /* AppDelegate.swift */,
+				ED54717E264075760080159A /* SceneDelegate.swift */,
+				ED5471852640757E0080159A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED5471A42640776B0080159A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED547198264077090080159A /* TabViewController.swift */,
+				ED54719B264077250080159A /* HomeViewController.swift */,
+				ED54719E2640772F0080159A /* SearchViewController.swift */,
+				ED5471A1264077390080159A /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED5471A6264077790080159A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ED5471A72640779A0080159A /* AuthViewController.swift */,
+				ED5471AB264077AF0080159A /* ProfileViewController.swift */,
+				ED5471AE264077BC0080159A /* WelcomeViewController.swift */,
+				ED5471B1264077CE0080159A /* SettingsViewController.swift */,
+				ED5471B4264077DE0080159A /* PlayerViewController.swift */,
+				ED5471B7264077E50080159A /* PlaylistViewController.swift */,
+				ED5471BA264078020080159A /* SearchResultsViewController.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +226,6 @@
 			files = (
 				ED5471892640757E0080159A /* LaunchScreen.storyboard in Resources */,
 				ED5471862640757E0080159A /* Assets.xcassets in Resources */,
-				ED547184264075760080159A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +236,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED547181264075760080159A /* ViewController.swift in Sources */,
+				ED54719F2640772F0080159A /* SearchViewController.swift in Sources */,
+				ED5471AF264077BC0080159A /* WelcomeViewController.swift in Sources */,
+				ED5471B2264077CE0080159A /* SettingsViewController.swift in Sources */,
+				ED54719C264077250080159A /* HomeViewController.swift in Sources */,
+				ED5471BF2640784D0080159A /* AuthManager.swift in Sources */,
+				ED5471B8264077E50080159A /* PlaylistViewController.swift in Sources */,
+				ED5471BB264078020080159A /* SearchResultsViewController.swift in Sources */,
+				ED547199264077090080159A /* TabViewController.swift in Sources */,
+				ED5471B5264077DE0080159A /* PlayerViewController.swift in Sources */,
+				ED5471A82640779A0080159A /* AuthViewController.swift in Sources */,
+				ED5471C2264078550080159A /* ApiCallers.swift in Sources */,
+				ED5471A2264077390080159A /* LibraryViewController.swift in Sources */,
 				ED54717D264075760080159A /* AppDelegate.swift in Sources */,
+				ED5471AC264077AF0080159A /* ProfileViewController.swift in Sources */,
+				ED5471C5264078630080159A /* HepticsManager.swift in Sources */,
 				ED54717F264075760080159A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +258,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED547182264075760080159A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED547183264075760080159A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED5471872640757E0080159A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
